@@ -1,0 +1,210 @@
+
+
+.container {
+  padding: 22px 5%;
+  margin: 0 25px;
+  background-color: #b5bf97;
+}
+
+.logo {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: -2px;
+  line-height: 1;
+  color: #232d30;
+  text-decoration: none;
+}
+
+.logo span {
+  display: block;           
+  margin-top: 9px;         
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 30px ;
+ 
+}
+
+.kapak-foto {
+    position: relative;
+    margin: 0 25px ;
+
+}
+
+.karakoy-foto {
+    width: 100%;
+    height: 500px;
+    display: block;
+    object-fit: cover;
+    margin: 0 ;
+    filter: brightness(65%);
+}
+
+
+
+.KAPAK-YAZI {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translateY(-50%);
+    right: 6%;
+    color: #fcfafa;
+    
+}
+
+.KAPAK-YAZI h1 {
+  font-family: Georgia, serif;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 1.15;
+  margin: 0 0 16px;
+  color: #fff5e6;
+}
+
+.KAPAK-YAZI p {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  color:  #6b624c;
+  background-color: #b5bf97;
+  width: fit-content;
+}
+
+.link {
+  display: block;
+  margin: 0 25px;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  color: #446974;
+  font decoration: underline;
+}
+
+.yan-foto {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 25px ;
+    
+}
+
+.ikinci-foto {
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+
+}
+
+.yan-yazi {
+    position: left;
+   flex: 1; 
+  min-width: 0;
+    color: #2c1f1f;
+    
+}
+
+.yan-yazi ul {
+  padding-left: 25px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.yan-yazi p {
+  padding-left: 25px;
+  font-size: 20px;
+  line-height: 1.8;
+
+}
+
+.link2 {
+display: block;
+  margin-top: 0;
+  color: #446974;
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+text-align: right;
+margin-right: 25px;
+
+}
+
+.Kayıp-Yapılar {
+  font-family: Georgia, serif;
+  font-size: 80px;
+  font-weight: normal;
+  letter-spacing: -2px;
+  line-height: 1;
+  color: #232d30;
+  text-decoration: none;
+  margin-left: 25px;
+  background-color: #b5bf97;
+  margin:0;
+}
+
+.paragraf-kayıp {
+  display: block;
+  margin-top: 0;
+  color: #481c19;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+text-align: left;
+margin-right: 25px;
+background-color: #b5bf97;
+text-decoration: vertical;
+margin:0 ;
+ 
+}
+
+.ucuncu-foto {
+  width: 100%;
+  height: 500px;
+  display: block;
+  object-fit: cover;
+  margin: 0 ;
+  position: relative;
+}
+
+.köprü {
+  width:100%;
+  height: 500px;
+  display: block;
+  object-fit: cover;
+  margin: 0 ;
+  position: relative;
+}
+
+.köprü-yazı {
+font-family: Arial, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  color:  #6b624c;
+  background-color: #b5bf97;
+ 
+  text-align: right;
+
+}
+
+.FOTOTO {
+     width:100%;
+  height: 500px;
+  display: block;
+  object-fit: cover;
+  margin: 0 ;
+  position: relative;
+}
+
+.fototo-yazı {
+    font-family: Arial, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  color:  #6b624c;
+  background-color: #b5bf97;
+  text-align: left;
+    color: #36301a;
+    
+}
