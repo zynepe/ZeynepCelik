@@ -121,40 +121,32 @@ body {
 
 }
 
-.link2 {
-display: block;
-  margin-top: 0;
-  color: #446974;
-  text-decoration: underline;
-  font-family: Arial, sans-serif;
-  font-size: 10px;
-text-align: right;
-margin-right: 25px;
 
-}
+
+
 
 .Kayıp-Yapılar {
   font-family: Georgia, serif;
-  font-size: 80px;
+  font-size: 30px;
   font-weight: normal;
   letter-spacing: -2px;
   line-height: 1;
   color: #232d30;
   text-decoration: none;
   margin-left: 25px;
-  background-color: #b5bf97;
+  background-color: #516b8f;
   margin:0;
 }
 
 .paragraf-kayıp {
   display: block;
   margin-top: 0;
-  color: #481c19;
+  color: #232d30;
   font-family: Arial, sans-serif;
   font-size: 30px;
 text-align: left;
 margin-right: 25px;
-background-color: #b5bf97;
+background-color: #445676;
 text-decoration: vertical;
 margin:0 ;
  
@@ -162,7 +154,7 @@ margin:0 ;
 
 .ucuncu-foto {
   width: 100%;
-  height: 500px;
+  height: 300px;
   display: block;
   object-fit: cover;
   margin: 0 ;
@@ -171,7 +163,7 @@ margin:0 ;
 
 .köprü {
   width:100%;
-  height: 500px;
+  height: 700PX;
   display: block;
   object-fit: cover;
   margin: 0 ;
@@ -182,16 +174,16 @@ margin:0 ;
 font-family: Arial, sans-serif;
   font-size: 30px;
   margin: 0;
-  color:  #6b624c;
-  background-color: #b5bf97;
+  color:  #232d30;
+  background-color: #445676;
  
   text-align: right;
 
 }
 
-.FOTOTO {
-     width:100%;
-  height: 500px;
+.karaköysel {
+  width:100%;
+  height: 700px;
   display: block;
   object-fit: cover;
   margin: 0 ;
@@ -202,9 +194,19 @@ font-family: Arial, sans-serif;
     font-family: Arial, sans-serif;
   font-size: 30px;
   margin: 0;
-  color:  #6b624c;
-  background-color: #b5bf97;
+  color:  #232d30;
+  background-color: #445676;
   text-align: left;
     color: #36301a;
     
+}
+
+.link2 {
+  display: block;
+  margin: 0 25px;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  color: #446974;
+  font decoration: underline;
+  text-align: right;
 }
