@@ -1,103 +1,877 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-
-<link rel="stylesheet" href="style.css">
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
-
-
-    <title>ZeynepÇelik</title>
-
-<link rel="icon" type="image/png" href="logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeynep Çelik — Portfolyo</title>
   <link rel="stylesheet" href="style.css">
-
-
 </head>
 <body>
+  <main class="stage">
+    <div class="book" id="kapak">
 
-  
-<div class="container">
-  <a class="logo" href="#">
-    Zeynep Çelik
-    <span>Çalışma Örnekleri</span>
+      <div class="spread">
+        <aside class="archive" aria-label="Karaköy arşiv kolajı">
+          <div class="folder-tab" aria-hidden="true">Karaköy</div>
+          <div class="blue-sheet" aria-hidden="true"></div>
+          <div class="map-sheet" aria-hidden="true"></div>
+
+          <figure class="photograph">
+  <a
+    class="photo-link"
+    href="https://upload.wikimedia.org/wikipedia/commons/f/f2/Galata_Bridge%2C_Constantinople_LCCN2016820955.jpg"
+    target="_blank"
+    rel="noopener"
+    aria-label="Galata Köprüsü fotoğrafını tam boyutta aç"
+  >
+    <div class="photo-print" aria-hidden="true"></div>
   </a>
-</div>
 
-<div class="kapak-foto">
-  <img class="karakoy-foto" src="karaköyfoto.jpg" alt="Karakoy">
+  <figcaption>
+    Galata Köprüsü, İstanbul ·
+    <a
+      href="https://www.loc.gov/pictures/item/2016820955/"
+      target="_blank"
+      rel="noopener"
+    >Library of Congress</a>
+  </figcaption>
+</figure>
 
+          <div class="field-note">
+            <span>Alan notları</span>
+            Rıhtım, sokak ve kentin hafızası.
+          </div>
 
-    <div class="KAPAK-YAZI">
-    <h1>Fikirleri, özenle düşünülmüş </h1>
-    <h1>çözümlere dönüştürüyorum.</h1>
-    <p>Mimar Sinan Güzel Sanatlar Üniversitesi Öğrencisi</p>
-    </div>
-</div>
+          <span class="binder-clip" aria-hidden="true"></span>
+        </aside>
 
- <a class="link" href="https://en.wikipedia.org/wiki/Karak%C3%B6y#/media/File:Galata-Kai.jpg">Karaköy quayside in the early 20th century </a>    
+        <div class="page">
+          <details class="menu">
+            <summary>Menü</summary>
+            <nav aria-label="Portfolyo bölümleri">
+                  <a href="#hakkimda">Hakkımda</a>
+    <a href="#projeler">Projeler</a>
+    <a href="#fotograflar">Fotoğraflar</a> 
+    <a href="#kolaj-eskizler">Kolaj ve Eskizler</a>
+    <a href="#iletisim">İletişim</a>
+            </nav>
+          </details>
 
+          <section class="panel" id="hakkimda" tabindex="-1">
+            <p class="eyebrow">Hakkımda</p>
+            <h1>Zeynep Çelik</h1>
 
+            <p>
+              Merhaba, ben Zeynep. Mimar Sinan Güzel Sanatlar
+              Üniversitesi’nde mimarlık okuyorum.
+            </p>
 
+            <p>
+              Bir yere tasarımdan önce yürüyerek, fotoğraf çekerek
+              ve eski haritalarına bakarak yaklaşmayı seviyorum.
+              Özellikle İstanbul’da, bugün gördüğümüz sokakların
+              ve yapıların geçmişten hangi izleri taşıdığıyla
+              ilgileniyorum.
+            </p>
 
+            <p>
+              Bu portfolyoda stüdyo projelerimi, çizimlerimi ve
+              kentte dolaşırken biriktirdiğim fotoğrafları bir araya
+              getiriyorum.
+            </p>
 
-<div class="yan-foto">
+            <p class="signature" aria-hidden="true">Zeynep</p>
+          </section>
 
-  <div class="yan-yazi">
-    <p>Kuzguncuk - El Sanatları Atölyesi</p>
-    <ul>
-      <li>Kimliğini kaybetmemiş mahalle dokusu</li>
-      <li>Sokak Sineması Kültürü</li>
-      <li>Kamusal zemin kat</li>
-      <li>Arka Bahçeye Yönlendiren Mimari</li>
-      <li>Köprülerle Birbirine Bağlanan Kütleler</li>
-      <li>Kuzguncuk Üretim Kültürü</li>
-    </ul>
+        <section class="panel" id="iletisim" tabindex="-1">
+  <h2>İletişim</h2>
+
+  <div class="contact-links">
+    <a href="https://www.instagram.com/_zzeynepcelik/"
+       target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+
+    <a href="www.linkedin.com/in/zeynep-celik-4a0a72293"
+       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+
+    <a id="contact-email" href="mailto:MAIL_ADRESIN">zeynepcelik7578@gmail.com</a>
   </div>
 
-  <img
-    class="ikinci-foto"
-    src="karaköyfotoo.jpg"
-    alt="Karaköy"
-  >
+  <form class="contact-form" id="contact-form">
+    <label for="contact-name">Adın</label>
+    <input id="contact-name" name="name" autocomplete="name" required>
+
+    <label for="contact-reply">E-posta adresin</label>
+    <input id="contact-reply" name="email" type="email"
+           autocomplete="email" required>
+
+    <label for="contact-message">Mesajın</label>
+    <textarea id="contact-message" name="message" rows="5" required></textarea>
+
+    <button type="submit">E-posta taslağını aç ↗</button>
+  </form>
+</section>
+
+          <section class="panel photo-album" id="album-galata" tabindex="-1">
+  <a class="back-link" href="#fotograflar">← Fotoğraflar</a>
+  <h2>Galata</h2>
+<div class="album-book">
+  <label class="album-turn">
+    <input class="album-step" type="checkbox" aria-label="İkinci sayfayı göster">
+    <span class="album-next">2. sayfaya geç →</span>
+    <span class="album-prev">← 1. sayfaya dön</span>
+  </label>
+<div class="album-leaves">
+    <div class="album-leaf album-leaf--first">
+  <div class="album-board">
+  <div class="album-leaves">
+    <div class="album-leaf album-leaf--first">
+  <div class="album-board">
+  <figure class="album-photo">
+  <img src="galata-1.jpg" >
+</figure>
+     <figure class="album-photo">
+  <img src="galata-2.jpg" >
+</figure>
+    <figure class="album-photo">
+  <img src="galata-3.jpg" >
+</figure>
+    <figure class="album-photo">
+  <img src="galata-4.jpg" >
+</figure>
+  <div class="album-collage" aria-hidden="true">
+  <div class="collage-map"></div>
+  <span class="collage-paper collage-paper--green"></span>
+  <span class="collage-paper collage-paper--blue"></span>
+  <span class="collage-paper collage-paper--ruled"></span>
+</div>
+  </div>
+      </div>
+
+    <div class="album-leaf album-leaf--second">
+      <div class="album-board">
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+
+        <div class="album-collage" aria-hidden="true">
+          <div class="collage-map"></div>
+          <span class="collage-paper collage-paper--green"></span>
+          <span class="collage-paper collage-paper--blue"></span>
+          <span class="collage-paper collage-paper--ruled"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="panel photo-album" id="album-kuzguncuk" tabindex="-1">
+  <a class="back-link" href="#fotograflar">← Fotoğraflar</a>
+  <h2>Kuzguncuk</h2>
+<div class="album-book">
+  <label class="album-turn">
+    <input class="album-step" type="checkbox"
+           aria-label="Albümün ikinci sayfasını göster">
+    <span class="album-next">2. sayfaya geç →</span>
+    <span class="album-prev">← 1. sayfaya dön</span>
+  </label>
+
+  <div class="album-leaves">
+    <div class="album-leaf album-leaf--first">
+  <div class="album-board">
+   <figure class="album-photo">
+  <img src="kuzguncuk-1.jpg" >
+</figure>
+     <figure class="album-photo">
+  <img src="kuzguncuk-2.jpg" >
+</figure>
+    <figure class="album-photo">
+  <img src="kuzguncuk-3.jpg" >
+</figure>
+    <figure class="album-photo">
+  <img src="kuzguncuk-4.jpg" >
+</figure>
+    <div class="album-collage" aria-hidden="true">
+  <div class="collage-map"></div>
+  <span class="collage-paper collage-paper--green"></span>
+  <span class="collage-paper collage-paper--blue"></span>
+  <span class="collage-paper collage-paper--ruled"></span>
+</div>
+  </div>
+      </div>
+
+    <div class="album-leaf album-leaf--second">
+      <div class="album-board">
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+
+        <div class="album-collage" aria-hidden="true">
+          <div class="collage-map"></div>
+          <span class="collage-paper collage-paper--green"></span>
+          <span class="collage-paper collage-paper--blue"></span>
+          <span class="collage-paper collage-paper--ruled"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="panel photo-album" id="album-saraybosna" tabindex="-1">
+  <a class="back-link" href="#fotograflar">← Fotoğraflar</a>
+  <h2>Saraybosna</h2>
+<div class="album-book">
+  <label class="album-turn">
+    <input class="album-step" type="checkbox"
+           aria-label="Albümün ikinci sayfasını göster">
+    <span class="album-next">2. sayfaya geç →</span>
+    <span class="album-prev">← 1. sayfaya dön</span>
+  </label>
+
+  <div class="album-leaves">
+    <div class="album-leaf album-leaf--first">
+  <div class="album-board">
+    <figure class="album-photo">
+  <img src="saraybosna-1.jpg" >
+</figure>
+     <figure class="album-photo">
+  <img src="saraybosna-2.jpg" >
+</figure>
+    <figure class="album-photo">
+  <img src="saraybosna-3.jpg" >
+</figure>
+    <figure class="album-photo">
+  <img src="saraybosna-4.jpg" >
+</figure>
+    <div class="album-collage" aria-hidden="true">
+  <div class="collage-map"></div>
+  <span class="collage-paper collage-paper--green"></span>
+  <span class="collage-paper collage-paper--blue"></span>
+  <span class="collage-paper collage-paper--ruled"></span>
+</div>
+  </div>
+      </div>
+
+    <div class="album-leaf album-leaf--second">
+      <div class="album-board">
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+
+        <div class="album-collage" aria-hidden="true">
+          <div class="collage-map"></div>
+          <span class="collage-paper collage-paper--green"></span>
+          <span class="collage-paper collage-paper--blue"></span>
+          <span class="collage-paper collage-paper--ruled"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="panel photo-album" id="album-amsterdam" tabindex="-1">
+  <a class="back-link" href="#fotograflar">← Fotoğraflar</a>
+  <h2>Amsterdam</h2>
+<div class="album-book">
+  <label class="album-turn">
+    <input class="album-step" type="checkbox"
+           aria-label="Albümün ikinci sayfasını göster">
+    <span class="album-next">2. sayfaya geç →</span>
+    <span class="album-prev">← 1. sayfaya dön</span>
+  </label>
+
+  <div class="album-leaves">
+    <div class="album-leaf album-leaf--first">
+  <div class="album-board">
+     <figure class="album-photo">
+  <img src="ams-1.jpg" >
+</figure>
+     <figure class="album-photo">
+  <img src="ams-2.jpg" >
+</figure>
+    <figure class="album-photo">
+  <img src="ams-3.jpg" >
+</figure>
+    <figure class="album-photo">
+  <img src="ams-4.jpg" >
+</figure>
+    <div class="album-collage" aria-hidden="true">
+  <div class="collage-map"></div>
+  <span class="collage-paper collage-paper--green"></span>
+  <span class="collage-paper collage-paper--blue"></span>
+  <span class="collage-paper collage-paper--ruled"></span>
+</div>
+  </div>
+      </div>
+
+    <div class="album-leaf album-leaf--second">
+      <div class="album-board">
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+        <figure class="album-photo"></figure>
+
+        <div class="album-collage" aria-hidden="true">
+          <div class="collage-map"></div>
+          <span class="collage-paper collage-paper--green"></span>
+          <span class="collage-paper collage-paper--blue"></span>
+          <span class="collage-paper collage-paper--ruled"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+         <section class="panel" id="projeler" tabindex="-1">
+  <h2>Projeler</h2>
+
+  <nav class="project-files" aria-label="Proje dosyaları">
+    
+    <a class="project-file" href="#kayip-istanbul"
+       style="--folder: #536489; --file-ink: #f3ebd8">
+      <span class="file-cover">
+        <span class="file-photo">
+      <img src="kayıpistanbulkapak.png" alt="">
+    </span>
+        <span class="file-number" aria-hidden="true">01</span>
+        <span class="file-title">Kayıp İstanbul Müzesi</span>
+      </span>
+    </a>
+
+
+
+
+   <a class="project-file" href="#kuzguncuk"
+   style="--folder: #736e3b; --file-ink: #f3ebd8">
+  <span class="file-cover">
+    <span class="file-photo">
+      <img src="kuzguncuk1.png" alt="">
+    </span>
+    <span class="file-number" aria-hidden="true">02</span>
+    <span class="file-title">Kuzguncuk El Sanatları Atölyesi</span>
+  </span>
+</a>
+
+    <a class="project-file" href="#low-line"
+       style="--folder: #6b7378; --file-ink: #fff8e8">
+      <span class="file-cover">
+        <span class="file-photo">
+      <img src="lowlinekapak.png" alt="">
+    </span>
+        <span class="file-number" aria-hidden="true">03</span>
+        <span class="file-title">Bakırköy Low-Line</span>
+      </span>
+    </a>
+
+    <a class="project-file" href="#galata-enstitu"
+       style="--folder: #9e7755; --file-ink: #221811">
+      <span class="file-cover">
+        <span class="file-photo">
+      <img src="galatasemtaraştırmaenstitüsükapak.png" alt="">
+    </span>
+        <span class="file-number" aria-hidden="true">04</span>
+        <span class="file-title">Galata Kent Araştırmaları Enstitüsü</span>
+      </span>
+    </a>
+
+    <a class="project-file" href="#tupras"
+       style="--folder: #505949; --file-ink: #f1ecd9">
+      <span class="file-cover">
+        <span class="file-photo">
+      <img src="petrolrafyenidenkapak.png" alt="">
+    </span>
+        <span class="file-number" aria-hidden="true">05</span>
+        <span class="file-title">Petrol Rafinerisi Dönüşüm Projesi</span>
+      </span>
+    </a>
+  </nav>
+
+  <a class="back-link" href="#hakkimda">← Hakkımda</a>
+</section>
+
+<section class="panel project-detail" id="kayip-istanbul"
+         tabindex="-1" style="--folder: #3b4c73">
+  <a class="back-link" href="#projeler">← Proje dosyaları</a>
+  <p class="eyebrow">Karaköy · Müze tasarımı</p>
+  <h2>Kayıp İstanbul Müzesi</h2>
+  <div class="project-layout">
+  <div class="project-lead">
+    <figure class="project-image project-lead-image">
+      <img src="karakoy-1.jpg" alt="Kayıp İstanbul Müzesi genel görünümü">
+    </figure>
+
+    <div class="project-description">
+      <p>
+        Eski Karaköy Katlı Otoparkı alanında tasarlanan müze,
+        arkeolojik kalıntıları yerinde koruyor. Kalıntıların üzerindeki
+        yaya rotası Maliye Caddesi’nden rıhtıma yöneliyor. Yükseltilen
+        sergi kütlesinin altında kalıntıların görülebildiği kamusal
+        bir alan açılıyor.
+      </p>
+    </div>
+  </div>
+
+  <div class="project-images project-gallery">
+    <figure class="project-image">
+      <img src="karakoy-2.jpg" alt="Kayıp İstanbul Müzesi zemin kat planı">
+    </figure>
+
+    <figure class="project-image">
+      <img src="karakoy-3.jpg" alt="Kayıp İstanbul Müzesi kesiti">
+    </figure>
+  </div>
+</div>
+</section>
+
+
+
+<section class="panel project-detail" id="kuzguncuk"
+         tabindex="-1" style="--folder: #3b4c73">
+  <a class="back-link" href="#projeler">← Proje dosyaları</a>
+  <p class="eyebrow">Kuzguncuk · Eğitim ve üretim</p>
+  <h2>Kuzguncuk El Sanatları Atölyesi</h2>
+  <div class="project-layout">
+  <div class="project-lead">
+    <figure class="project-image project-lead-image">
+      <img src="kuzguncuk-1.jpg" alt="Atölyeler">
+    </figure>
+
+    <div class="project-description">
+      <p>
+           Üryanizade Sokak’ta yer alan akademi, el sanatları
+          atölyelerini bir avlu çevresinde topluyor. Sergi ve kafe,
+          atölyelerdeki üretimi mahalleyle buluşturuyor.
+    </div>
+  </div>
+
+  <div class="project-images project-gallery">
+    <figure class="project-image">
+      <img src="k2.jpg" alt="El sanatları atölyesi zemin kat planı">
+    </figure>
+
+    <figure class="project-image">
+      <img src="k3.jpg" alt="El sanatları atölyesi kesiti">
+    </figure>
+  </div>
+</div>
+</section>
+
+
+
+<section class="panel project-detail" id="low-line"
+         tabindex="-1" style="--folder: #6b7378">
+  <a class="back-link" href="#projeler">← Proje dosyaları</a>
+  <p class="eyebrow">Bakırköy · Kentsel tasarım</p>
+  <h2>Bakırköy Low-Line</h2>
+  <p>
+    Yeraltı çarşısının dominant ticari yapılarla baskılanması sonucu atıl kalan bölgeyi yeni bir zemin kotu yaratarak yeniden açığa çıkarıp uğrak bir nokta haline getirilmiştir.
+  </p>
+
+ <div class="project-images project-gallery">
+    <figure class="project-image">
+      <img src="k2.jpg" alt=" Zemin kat planı">
+    </figure>
+
+    <figure class="project-image">
+      <img src="k3.jpg" alt="Kesit">
+    </figure>
+  </div>
+
+</section>
+
+<section class="panel project-detail" id="galata-enstitu"
+         tabindex="-1" style="--folder: #9e7755">
+  <a class="back-link" href="#projeler">← Proje dosyaları</a>
+  <p class="eyebrow">Galata · Araştırma ve arşiv</p>
+  <h2>Galata Kent Araştırmaları Enstitüsü</h2>
+
+  <div class="project-layout">
+    <div class="project-lead">
+      <figure class="project-image project-lead-image"></figure>
+
+      <div class="project-description">
+        <p>
+          Kuledibi’nde önerilen enstitü, Galata’nın farklı tarihsel
+          katmanlarını araştırmak için arşiv, kütüphane ve kamusal
+          öğrenme mekânlarını sergilerle destekleyerek bir araya getiriyor.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-images project-gallery">
+      <figure class="project-image"></figure>
+      <figure class="project-image"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="panel project-detail" id="tupras"
+         tabindex="-1" style="--folder: #505949">
+  <a class="back-link" href="#projeler">← Proje dosyaları</a>
+  <p class="eyebrow">İzmit · Endüstri mirasının dönüşümü</p>
+  <h2>İzmit TÜPRAŞ Dönüşümü</h2>
+
+  <div class="project-layout">
+    <div class="project-lead">
+      <figure class="project-image project-lead-image"></figure>
+
+      <div class="project-description">
+        <p>
+          Rafineri alanını kamusal bir parka dönüştüren öneri, mevcut
+          tankları dijital sergi mekânları olarak yeniden kullanıyor.
+          Yağmur suyunu alanda tutan peyzaj, parkın dolaşımını ve
+          açık alanlarını biçimlendiriyor.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-images project-gallery">
+      <figure class="project-image"></figure>
+      <figure class="project-image"></figure>
+    </div>
+  </div>
+</section>
+
+          <a class="close-book" href="#kapak">Kapağı kapat</a>
+        </div>
+      </div>
+
+      <a class="cover" href="#hakkimda" aria-label="Zeynep Çelik Portfolyo kitabını aç">
+        <span class="cover-front">
+          <span class="cover-tape" aria-hidden="true"></span>
+
+          <span class="cover-label">
+            <span class="cover-name">Zeynep Çelik</span>
+            <span class="cover-title">Portfolyo</span>
+          </span>
+
+          <span class="open-label">Kapağı aç ↗</span>
+        </span>
+
+        <span class="cover-back" aria-hidden="true"></span>
+      </a>
+
+    </div>
+    <section class="photo-index" id="fotograflar"
+         aria-labelledby="photo-index-title" tabindex="-1">
+         
+
+ <div class="photo-wall photo-wall--drift" aria-hidden="true">
+
+  <span class="drift-print wall-cut--istanbul"
+        style="--x:-5%; --y:-4%; --w:30%; --h:31%; --turn:-9deg"></span>
+
+  <span class="drift-print"
+        style="--x:18%; --y:-7%; --w:36%; --h:32%; --turn:5deg;
+               --image:url('https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Constantinople_and_the_Golden_Horn%2C_Turkey%2C_1890s.jpg/960px-Constantinople_and_the_Golden_Horn%2C_Turkey%2C_1890s.jpg')"></span>
+
+  <span class="drift-print wall-cut--amsterdam"
+        style="--x:49%; --y:-5%; --w:25%; --h:28%; --turn:-10deg"></span>
+
+  <span class="drift-print"
+        style="--x:69%; --y:-1%; --w:34%; --h:31%; --turn:7deg;
+               --image:url('https://upload.wikimedia.org/wikipedia/commons/4/4a/%28Old_Z%C3%BFds%2C_the_Kolk_%28canal%29%2C_Amsterdam%2C_Holland%29_LOC_4120030346.jpg')"></span>
+
+  <span class="drift-print"
+        style="--x:-6%; --y:19%; --w:31%; --h:27%; --turn:9deg;
+               --image:url('https://upload.wikimedia.org/wikipedia/commons/8/8a/View_of_Galata_across_the_Golden_Horn.jpg')"></span>
+
+  <span class="drift-print"
+        style="--x:15%; --y:23%; --w:34%; --h:31%; --turn:-11deg;
+               --image:url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Constantinople_late_19th_century.jpg')"></span>
+
+  <span class="drift-print wall-cut--goad-detail"
+        style="--x:82%; --y:22%; --w:24%; --h:34%; --turn:-12deg"></span>
+
+  <span class="drift-print"
+        style="--x:67%; --y:35%; --w:33%; --h:33%; --turn:8deg;
+               --image:url('https://upload.wikimedia.org/wikipedia/commons/a/a2/Constantinople_1870s_4029e.jpg')"></span>
+
+  <span class="drift-print wall-cut--panorama"
+        style="--x:-3%; --y:48%; --w:34%; --h:28%; --turn:-7deg"></span>
+
+  <span class="drift-print wall-cut--goad-index"
+        style="--x:20%; --y:54%; --w:24%; --h:29%; --turn:12deg"></span>
+
+  <span class="drift-print"
+        style="--x:53%; --y:63%; --w:34%; --h:27%; --turn:-9deg;
+               --image:url('https://upload.wikimedia.org/wikipedia/commons/1/17/The_Golden_Horn%2C_Constantinople%2C_Turkey_LOC_4210446685.jpg')"></span>
+
+  <span class="drift-print wall-cut--bridge"
+        style="--x:-1%; --y:74%; --w:35%; --h:29%; --turn:8deg"></span>
+
+  <span class="drift-print"
+        style="--x:28%; --y:78%; --w:33%; --h:27%; --turn:-9deg;
+               --image:url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Constantinople_1870s_4029f.jpg')"></span>
+
+  <span class="drift-print"
+        style="--x:74%; --y:77%; --w:31%; --h:29%; --turn:9deg;
+               --image:url('https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Amsterdam_in_Photochrome%2C_omstreeks_1900%2C_SFA003018007.jpg/960px-Amsterdam_in_Photochrome%2C_omstreeks_1900%2C_SFA003018007.jpg')"></span>
 
 </div>
 
+  <div class="photo-index-content">
+    <div class="photo-notice">
+      <h2 id="photo-index-title">Fotoğraflar</h2>
+
+      <nav class="photo-slips" aria-label="Fotoğraf albümleri">
+        <a class="photo-slip" href="#album-galata">Galata</a>
+        <a class="photo-slip" href="#album-kuzguncuk">Kuzguncuk</a>
+        <a class="photo-slip" href="#album-saraybosna">Saraybosna</a>
+        <a class="photo-slip" href="#album-amsterdam">Amsterdam</a>
+      </nav>
+    </div>
+
+    <a class="photo-index-back" href="#hakkimda">← Deftere dön</a>
+  </div>
+
+</section>
+
+   
+
+<details class="menu photo-menu">
+  <summary>Menü</summary>
+
+  <nav aria-label="Portfolyo bölümleri">
+    <a href="#hakkimda">Hakkımda</a>
+    <a href="#projeler">Projeler</a>
+    <a href="#fotograflar">Fotoğraflar</a> 
+    <a href="#kolaj-eskizler">Kolaj ve Eskizler</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+</details>
 
 
-<h1 class="Kayıp-Yapılar">Diyagramlar</h1>
+<section class="sketch-page" id="kolaj-eskizler"
+         aria-labelledby="sketch-title" tabindex="-1">
+  <div class="sketch-page-inner">
+    <h2 id="sketch-title">Kolaj ve Eskizler</h2>
+
+    <figure class="sketch-card" id="eskiz-01" tabindex="-1"
+        style="--x: 4%; --y: 6%; --w: 34%; --h: 39%; --tilt: -9deg">
+  <div class="sketch-frame">
+    <img src="eskiz-1.jpg" alt="Karaköy rıhtımı eskizi">
+  </div>
+  <a class="sketch-open" href="#eskiz-01" aria-label="Görseli büyüt">↗</a>
+  <a class="sketch-close" href="#kolaj-eskizler">Kapat ×</a>
+</figure>
+
+
+<figure class="sketch-card" id="eskiz-02" tabindex="-1"
+         style="--x: 29%; --y: 4%; --w: 34%; --h: 36%; --tilt: 8deg">
+  <div class="sketch-frame">
+    <img src="eskiz-2.jpg" alt="Bakırköy Kolaj">
+  </div>
+  <a class="sketch-open" href="#eskiz-01" aria-label="Görseli büyüt">↗</a>
+  <a class="sketch-close" href="#kolaj-eskizler">Kapat ×</a>
+</figure>
+  
+<figure class="sketch-card" id="eskiz-03" tabindex="-1"
+         style="--x: 60%; --y: 5%; --w: 34%; --h: 43%; --tilt: -7deg">
+  <div class="sketch-frame">
+    <img src="eskiz-3.jpg" alt="Galata Sokak Silüeti">
+  </div>
+  <a class="sketch-open" href="#eskiz-01" aria-label="Görseli büyüt">↗</a>
+  <a class="sketch-close" href="#kolaj-eskizler">Kapat ×</a>
+</figure>
+
+<figure class="sketch-card" id="eskiz-04" tabindex="-1"
+         style="--x: 9%; --y: 47%; --w: 35%; --h: 42%; --tilt: 5deg">
+  <div class="sketch-frame">
+    <img src="eskiz-4.jpg" alt="Ulaşım Dönüşümü Kolajı">
+  </div>
+  <a class="sketch-open" href="#eskiz-01" aria-label="Görseli büyüt">↗</a>
+  <a class="sketch-close" href="#kolaj-eskizler">Kapat ×</a>
+</figure>
+
+  <figure class="sketch-card" id="eskiz-05" tabindex="-1"
+         style="--x: 35%; --y: 38%; --w: 33%; --h: 48%; --tilt: -5deg">
+  <div class="sketch-frame">
+    <img src="eskiz-5.jpg" alt="Harita">
+  </div>
+  <a class="sketch-open" href="#eskiz-01" aria-label="Görseli büyüt">↗</a>
+  <a class="sketch-close" href="#kolaj-eskizler">Kapat ×</a>
+</figure>
+      
+<figure class="sketch-card" id="eskiz-06" tabindex="-1"
+          style="--x: 61%; --y: 51%; --w: 35%; --h: 40%; --tilt: 8deg">
+  <div class="sketch-frame">
+    <img src="eskiz-6.jpg" alt="Petrol Rafineri Kolaj">
+  </div>
+  <a class="sketch-open" href="#eskiz-01" aria-label="Görseli büyüt">↗</a>
+  <a class="sketch-close" href="#kolaj-eskizler">Kapat ×</a>
+</figure>
+   
+    </div>
+  </div>
+</section>
 
 
 
-<div class="hava-foto"  
->
 
+  </main>
 
-  <img
-    class="ucuncu-foto"
-    src="havafotoğrafı.jpg"
-    alt="Karaköy"
-  >
-
-<p class="paragraf-kayıp">Vaziyet Planı</p>
-
-</div>
-<div class="kayıp-yapılar">
-   <img class="köprü" src="KÖPRÜ.jpg" alt="Kayıp Yapı 1">
-   <img class="karaköysel" src="karaköyfotoğrafı.jpg" alt="KARAKÖY">
-</div>
-
-<div class="köprü-yazı">
-   <p class="köprü-yazı">Kuzguncuk</p>
-</div>
+</html>
 
 
 
-<a class="link2" href="https://tr.wikipedia.org/wiki/Kuzguncuk#/media/Dosya:Uryanizade_mosque_kuzguncuk.jpg">Üryanizade Camii fotoğraf kaynak </a>
+
+
+
+
+
+
+<script>
+  for (const book of document.querySelectorAll('.album-book')) {
+    const surface = book.querySelector('.album-leaves');
+    const checkbox = book.querySelector('.album-step');
+    const firstBoard = book.querySelector('.album-leaf--first .album-board');
+    const secondBoard = book.querySelector('.album-leaf--second .album-board');
+
+    if (!surface || !checkbox || !firstBoard || !secondBoard) continue;
+
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const sheet = document.createElement('div');
+    sheet.className = 'album-flip-sheet';
+    sheet.setAttribute('aria-hidden', 'true');
+    sheet.inert = true;
+
+    function makeFace(board, side) {
+      const face = document.createElement('div');
+      face.className = `album-flip-face album-flip-face--${side}`;
+      face.append(board.cloneNode(true));
+      return face;
+    }
+
+    sheet.append(makeFace(firstBoard, 'front'), makeFace(secondBoard, 'back'));
+    surface.append(sheet);
+    book.classList.add('is-real-book');
+
+    let drag = null;
+    let settling = false;
+
+    function setAngle(angle) {
+      surface.style.setProperty('--flip-angle', `${angle}deg`);
+    }
+
+    function showPage(second) {
+      surface.dataset.page = second ? '2' : '1';
+      setAngle(second ? -180 : 0);
+      surface.classList.remove('is-turning');
+      settling = false;
+    }
+
+    function turnTo(second) {
+      checkbox.checked = second;
+
+      if (reducedMotion.matches) {
+        showPage(second);
+        return;
+      }
+
+      settling = true;
+      surface.classList.add('is-turning');
+      setAngle(second ? -180 : 0);
+      window.setTimeout(() => showPage(second), 670);
+    }
+
+    showPage(checkbox.checked);
+
+    checkbox.addEventListener('change', () => {
+      if (settling || drag) {
+        checkbox.checked = !checkbox.checked;
+        return;
+      }
+
+      turnTo(checkbox.checked);
+    });
+
+    surface.addEventListener('dragstart', event => event.preventDefault());
+
+    surface.addEventListener('pointerdown', event => {
+      if (settling || drag || !event.isPrimary || event.button !== 0) return;
+      if (event.target.closest('a, button, input')) return;
+
+      const bounds = surface.getBoundingClientRect();
+      const second = surface.dataset.page === '2';
+      const onRight = event.clientX >= bounds.left + bounds.width / 2;
+
+      if (second === onRight) return;
+
+      drag = {
+        id: event.pointerId,
+        startX: event.clientX,
+        width: bounds.width / 2,
+        second,
+        progress: 0
+      };
+
+      surface.setPointerCapture(event.pointerId);
+      surface.classList.add('is-dragging');
+    });
+
+    surface.addEventListener('pointermove', event => {
+      if (!drag || event.pointerId !== drag.id) return;
+
+      const movement = event.clientX - drag.startX;
+      const distance = drag.second ? movement : -movement;
+      drag.progress = Math.max(0, Math.min(1, distance / drag.width));
+
+      if (reducedMotion.matches || distance < 3) return;
+
+      surface.classList.add('is-turning');
+      setAngle(drag.second
+        ? -180 + 180 * drag.progress
+        : -180 * drag.progress);
+    });
+
+    function finishDrag(event, released) {
+      if (!drag || event.pointerId !== drag.id) return;
+
+      const changed = released && drag.progress >= .25;
+      const nextPage = changed ? !drag.second : drag.second;
+      const moved = surface.classList.contains('is-turning');
+
+      drag = null;
+      surface.classList.remove('is-dragging');
+
+      if (changed || moved) turnTo(nextPage);
+    }
+
+    surface.addEventListener('pointerup', event => finishDrag(event, true));
+    surface.addEventListener('pointercancel', event => finishDrag(event, false));
+    surface.addEventListener('lostpointercapture', event => finishDrag(event, false));
+  }
+</script>
+
+    
+<script>
+  document.getElementById('contact-form').addEventListener('submit', event => {
+    event.preventDefault();
+
+    const form = new FormData(event.currentTarget);
+    const subject = `Portfolyo mesajı — ${form.get('name')}`;
+    const body = [
+      `Ad: ${form.get('name')}`,
+      `E-posta: ${form.get('email')}`,
+      '',
+      form.get('message')
+    ].join('\r\n');
+
+    const address = document.getElementById('contact-email').href;
+    window.location.href =
+      `${address}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  });
+</script>
+
+
 
 </body>
-
 </html>
